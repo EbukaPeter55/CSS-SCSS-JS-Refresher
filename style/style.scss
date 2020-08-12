@@ -1,0 +1,52 @@
+@import "variable";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+// NAVIGATION BAR
+nav{
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-evenly;
+  margin-top: 37px;
+  ul{
+   display: flex;
+   flex-flow: row wrap;  
+   margin-top: 20px;
+   li{
+    list-style-type: none; 
+     a{
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;      
+      color: rgba(0, 0, 0, 0.65);      
+      text-decoration: none;    
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+   }
+   li:nth-child(1), li:nth-child(2),
+   li:nth-child(3), li:nth-child(4){
+    margin-right: 30px;
+   }
+  } 
+  button[type="button"]{
+    width: 233px;
+    height: 49px;
+    left: 1089px;
+    top: 94px;
+    background: $buttons;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+// End of Navigation bar styles

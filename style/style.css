@@ -3,7 +3,111 @@
   padding: 0;
 }
 
-nav {
+nav[first] {
+  width: 100%;
+  min-height: 66px;
+  max-height: 250px;
+  left: 0px;
+  top: 0px;
+  background: #56CCF2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav[first] .left-top p {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 22px;
+}
+
+nav[first] .right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+nav[first] .right-top .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3rem;
+}
+
+nav[first] .right-top .phone img {
+  width: 30px;
+  height: 30px;
+}
+
+nav[first] .right-top .phone p {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+nav[first] .right-top input[type="search"] {
+  width: 163px;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 17px;
+  border: none;
+  margin-top: 17px;
+  margin-left: 6rem;
+}
+
+nav[first] .right-top .account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6rem;
+}
+
+nav[first] .right-top .account img {
+  width: 30px;
+  height: 30px;
+}
+
+nav[first] .right-top .account p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+nav[second] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +121,11 @@ nav {
   margin-top: 37px;
 }
 
-nav ul {
+nav[second] .icon {
+  display: none;
+}
+
+nav[second] ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,11 +136,11 @@ nav ul {
   margin-top: 20px;
 }
 
-nav ul li {
+nav[second] ul li {
   list-style-type: none;
 }
 
-nav ul li a {
+nav[second] ul li a {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -42,16 +150,16 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav[second] ul li a:hover {
   text-decoration: underline;
 }
 
-nav ul li:nth-child(1), nav ul li:nth-child(2),
-nav ul li:nth-child(3), nav ul li:nth-child(4) {
+nav[second] ul li:nth-child(1), nav[second] ul li:nth-child(2),
+nav[second] ul li:nth-child(3), nav[second] ul li:nth-child(4) {
   margin-right: 30px;
 }
 
-nav button[type="button"] {
+nav[second] button[type="button"] {
   width: 233px;
   height: 49px;
   left: 1089px;
@@ -64,5 +172,14 @@ nav button[type="button"] {
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
+}
+
+main section .top-header-wrapper {
+  max-width: 100%;
+  height: 640px;
+  background-image: url("../image/top-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 26px;
 }
 /*# sourceMappingURL=style.css.map */

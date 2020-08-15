@@ -1,0 +1,23 @@
+@import "variable";
+
+
+@media only screen and (max-device-width: 809px){
+    nav[first]{
+    .right-top{
+        input[type="search"]{
+           display: none;
+          }
+    }
+    }
+}
+// Mobile
+@media only screen and (max-device-width: 551px){
+    nav[second]{
+      display: flex;  
+      flex-direction: column;  
+      .icon{
+        display: block;
+      }
+    
+    }
+}

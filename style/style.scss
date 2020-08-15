@@ -5,11 +5,88 @@
     padding: 0;
 }
 // NAVIGATION BAR
-nav{
+// Top navbar
+nav[first]{
+width: 100%;
+min-height: 66px;
+max-height: 250px;
+left: 0px;
+top: 0px;
+background: $buttons;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+.left-top{
+ p{
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;  
+  color: #FFFFFF;
+  margin-top: 22px;
+ } 
+}
+.right-top{
+  display: flex;
+  flex-flow: row wrap;
+.phone{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: 3rem;
+  img{
+  width: 30px;
+  height: 30px;
+  }
+  p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #FFFFFF; 
+  }
+}
+input[type="search"]{
+  width: 163px;
+  height: 30px;
+  background: #FFFFFF;
+  border-radius: 17px;
+  border: none;
+  margin-top: 17px;
+  margin-left: 6rem;
+}
+.account{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: 6rem;
+  img{
+  width: 30px;
+  height: 30px; 
+  }
+  p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #FFFFFF;
+          
+  }
+}
+}
+}
+
+nav[second]{
   display: flex;
   flex-flow: row wrap; 
   justify-content: space-evenly;
   margin-top: 37px;
+  .icon{
+    display: none;
+  }
   ul{
    display: flex;
    flex-flow: row wrap;  
@@ -50,3 +127,17 @@ nav{
   }
 }
 // End of Navigation bar styles
+
+// MAIN
+main{
+section{
+  .top-header-wrapper{
+    max-width: 100%;
+    height: 640px;
+    background-image:url("../image/top-photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 26px;
+  }
+}
+}

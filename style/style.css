@@ -125,7 +125,18 @@ nav[second] .icon {
   display: none;
 }
 
-nav[second] ul {
+nav[second] .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: row wrap;
+      flex-wrap: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav[second] .right ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,11 +147,11 @@ nav[second] ul {
   margin-top: 20px;
 }
 
-nav[second] ul li {
+nav[second] .right ul li {
   list-style-type: none;
 }
 
-nav[second] ul li a {
+nav[second] .right ul li a {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -150,16 +161,20 @@ nav[second] ul li a {
   text-decoration: none;
 }
 
-nav[second] ul li a:hover {
+nav[second] .right ul li a:hover {
   text-decoration: underline;
 }
 
-nav[second] ul li:nth-child(1), nav[second] ul li:nth-child(2),
-nav[second] ul li:nth-child(3), nav[second] ul li:nth-child(4) {
+nav[second] .right ul li:nth-child(1), nav[second] .right ul li:nth-child(2),
+nav[second] .right ul li:nth-child(3), nav[second] .right ul li:nth-child(4) {
   margin-right: 30px;
 }
 
-nav[second] button[type="button"] {
+nav[second] .right ul li:nth-child(5) {
+  margin-right: 45px;
+}
+
+nav[second] .right button[type="button"] {
   width: 233px;
   height: 49px;
   left: 1089px;
@@ -181,5 +196,51 @@ main section .top-header-wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 26px;
+}
+
+main section .top-header-wrapper p {
+  text-align: center;
+}
+
+main section .top-header-wrapper p:nth-child(1) {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 570;
+  font-size: 3rem;
+  line-height: 56px;
+  color: #393D3F;
+  padding-top: 78px;
+}
+
+main section .top-header-wrapper p[second] {
+  font-family: 'Muli', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+main section .top-header-wrapper .write-up {
+  max-width: 1067px;
+  height: 465px;
+  background: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 243px;
+}
+
+main section .top-header-wrapper .write-up p {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 23px;
+  color: #2D2C2C;
+}
+
+main section .top-header-wrapper .write-up img {
+  margin-left: 40%;
+  margin-top: 10%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,13 +11,31 @@
     }
 }
 // Mobile
-@media only screen and (max-device-width: 551px){
+@media only screen and (max-device-width: 610px){
     nav[second]{
-      display: flex;  
-      flex-direction: column;  
+      flex-direction: column;
+    .left{
+      display: flex;
+      flex-direction: row;
+      .icon{
+       position: absolute;
+       left: 90%;
+
+      }
+
+    }
+
+     ul{
+      flex-direction: column!important;  
+
+     }     
       .icon{
         display: block;
       }
+    .right{
+      flex-direction: column;
+      display: none;
+    }  
     
     }
 }

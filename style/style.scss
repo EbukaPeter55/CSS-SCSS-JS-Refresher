@@ -8,6 +8,7 @@ body{
   // font-size: 10px;
 }
 // NAVIGATION BAR
+header{
 // Top navbar
 nav[first]{
 width: 100%;
@@ -81,6 +82,10 @@ input[type="search"]{
 }
 }
 }
+// Hide mobile nav
+  .mobile {
+   display: none!important;
+  }
 
 nav[second]{
   display: flex;
@@ -141,6 +146,7 @@ nav[second]{
    }
   
 }
+}
 // End of Navigation bar styles
 
 // MAIN
@@ -195,6 +201,56 @@ color: #2D2C2C;
   margin-left: 40%;
   margin-top: 10%;
    }
+  }
+  }
+}
+
+// SERVICES
+section{
+  h3{
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+    color: #2D2C2C;
+    margin-top: 20%;
+  }
+  .services{
+  // display: grid;
+  // grid-template-columns: auto auto auto auto;
+  // grid-column-gap: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  .content{
+    display: flex;
+    flex-flow: row wrap;
+     div{
+       margin-left: 20px;
+       margin-top: 12%;
+      h6{
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        color: #2D2C2C;
+        margin-top: 6%;
+      }
+      p{
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2D2C2C;
+
+      }
+    }
   }
   }
 }

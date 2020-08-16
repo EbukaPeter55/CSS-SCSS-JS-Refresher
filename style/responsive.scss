@@ -1,6 +1,6 @@
 @import "variable";
 
-
+// NAVIGATION BAR
 @media only screen and (max-device-width: 809px){
     nav[first]{
     .right-top{
@@ -10,8 +10,35 @@
     }
     }
 }
-// Mobile
+@media only screen and (max-width: 375px){
+  // Main
+  section{
+    .top-header-wrapper{
+      p[top]{
+       font-size: 1.5rem!important;
+      }
+    }
+  }
+  
+}
+@media only screen and (max-device-width: 546px){
+  header{
+
+nav[first]{
+  display: none;
+}
+}
+}
+
 @media only screen and (max-device-width: 610px){
+  // MOBILE
+  header{  
+  .mobile {
+    display: block!important;
+   }
+   .desktop{
+     display: none!important;
+   }
     nav[second]{
       flex-direction: column;
     .left{
@@ -38,4 +65,6 @@
     }  
     
     }
+  }
 }
+// END OF NAVIGATION

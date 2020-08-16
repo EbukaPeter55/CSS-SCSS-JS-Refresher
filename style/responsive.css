@@ -2,6 +2,9 @@
   nav[first] .right-top input[type="search"] {
     display: none;
   }
+  main section h3 {
+    margin-top: 50%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -40,13 +43,21 @@
   }
   header nav[second] .left .icon {
     position: absolute;
-    left: 90%;
+    left: 84%;
+  }
+  header nav[second] .left img {
+    margin-left: 2%;
+    margin-top: -2%;
   }
   header nav[second] ul {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+  }
+  header nav[second] ul li:nth-child(2), header nav[second] ul li:nth-child(3),
+  header nav[second] ul li:nth-child(4), header nav[second] ul li:nth-child(5) {
+    margin-top: 8px;
   }
   header nav[second] .icon {
     display: block;
@@ -57,6 +68,15 @@
         -ms-flex-direction: column;
             flex-direction: column;
     display: none;
+  }
+  header nav[second] .right ul {
+    margin-left: 3%;
+  }
+  header nav[second] .right button[type="button"] {
+    width: 200px;
+    font-size: 16px;
+    margin-left: 3%;
+    margin-top: 8px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

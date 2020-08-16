@@ -2,6 +2,7 @@
 
 // NAVIGATION BAR
 @media only screen and (max-device-width: 809px){
+  // Navbar
     nav[first]{
     .right-top{
         input[type="search"]{
@@ -9,6 +10,14 @@
           }
     }
     }
+  // Main  
+  main{
+    section{
+      h3{
+        margin-top: 50%;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 375px){
   // Main
@@ -46,14 +55,22 @@ nav[first]{
       flex-direction: row;
       .icon{
        position: absolute;
-       left: 90%;
+       left: 84%;
 
+      }
+      img{
+        margin-left: 2%;
+        margin-top: -2%;
       }
 
     }
 
      ul{
       flex-direction: column!important;  
+      li:nth-child(2), li:nth-child(3),
+      li:nth-child(4), li:nth-child(5){
+        margin-top: 8px;
+      }
 
      }     
       .icon{
@@ -62,9 +79,27 @@ nav[first]{
     .right{
       flex-direction: column;
       display: none;
+      ul{
+        margin-left: 3%;
+      }
+      button[type="button"]{
+        width: 200px;
+        font-size: 16px;
+        margin-left: 3%;
+        margin-top: 8px;
+      }
     }  
     
     }
   }
+  // END OF NAVIGATION
+   // Main  
+   main{
+    section{
+      h3{
+        // margin-top: 50%!important;
+      }
+    }
+  }
 }
-// END OF NAVIGATION
+

@@ -17,6 +17,27 @@
   header nav[first] {
     display: none;
   }
+  section .services {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .services .content {
+    width: 100% !important;
+  }
+  footer .last-footer-wrapper .phone {
+    display: none !important;
+  }
+  footer .last-footer-wrapper p[data="copy"] {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-device-width: 610px) {

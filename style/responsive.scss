@@ -37,6 +37,30 @@ nav[first]{
   display: none;
 }
 }
+// Main
+// Services
+section{
+  .services{
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    .content{
+      width: 100%!important;
+    }
+  }
+}
+// Footer
+footer{
+  .last-footer-wrapper{
+      .phone{
+        display: none!important;
+      }
+   p[data="copy"]{
+     text-align: center;
+   }
+  }
+}
+
 }
 
 @media only screen and (max-device-width: 610px){

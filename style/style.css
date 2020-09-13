@@ -564,7 +564,7 @@ main footer .last-footer-wrapper p[data="copy"] {
   color: #6C6C6C;
 }
 
-main footer .last-footer-wrapper [data="icons"] {
+main footer .last-footer-wrapper div[data="icons"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,7 +574,7 @@ main footer .last-footer-wrapper [data="icons"] {
           flex-flow: row wrap;
 }
 
-main footer .last-footer-wrapper [data="icons"] img {
+main footer .last-footer-wrapper div[data="icons"] img {
   margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -17,7 +17,11 @@
   header nav[first] {
     display: none;
   }
+  section h3 {
+    margin-top: 14rem !important;
+  }
   section .services {
+    width: 100%;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
@@ -30,7 +34,29 @@
             align-items: center;
   }
   section .services .content {
-    width: 100% !important;
+    width: 90% !important;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  footer .footer-wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-wrapper .process {
+    margin-top: 9% !important;
+  }
+  footer .footer-wrapper-second {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 11% !important;
   }
   footer .last-footer-wrapper .phone {
     display: none !important;
